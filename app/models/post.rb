@@ -7,7 +7,6 @@ class Post < ActiveRecord::Base
 
   before_save :email_author_about_post
 
-
   private
 
   def is_title_case
